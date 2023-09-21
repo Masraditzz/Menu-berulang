@@ -25,11 +25,9 @@ cin >> pilihan;
 switch(pilihan){   
 
 case 1: 
-      cout << "Anda memilih Espresso" <<
-endl; break;   
+      cout << "Anda memilih Espresso" << endl; break;   
 case 2:
       cout << "Anda memilih Cappuccino" << endl; break;   
-
 case 3: 
       cout << "Anda memilih Moccacino" << endl; break;   
 case 4:
@@ -37,8 +35,8 @@ case 4:
 case 5: 
       cout << "Anda memilih Hazelnut Latte" << endl; break;     
 default: 
-      cout << "Menu tidak tersedia" 
-<< endl;    
+
+cout << "Menu tidak tersedia"  << endl;    
 
 } 
 cout << endl; 
@@ -53,4 +51,3 @@ cout << "Terimakasih...";
 
 cout << endl;   return 0; }
 
-Invoice.cpp
